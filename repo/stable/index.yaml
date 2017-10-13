@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   nodered:
   - apiVersion: v1
-    created: 2017-10-12T17:46:31.205899+02:00
-    description: The Helm chart for NodeRed
-    digest: 4e80e1aa32d964bb46dd70f0d7ae0a9f4487645deaafb1824d0545e5bf7a0a7f
+    created: 2017-10-13T10:46:46.692038+02:00
+    description: A Helm chart for NodeRed
+    digest: c5b5c6fbd47282989142b1648cc309c3e46cdcc8a0880317aeef48b7c220a505
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/noderedicon.png
     maintainers:
     - email: niklaushirt@gmail.com
@@ -15,4 +15,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/nodered-0.17.5.tgz
     version: 0.17.5
-generated: 2017-10-12T17:46:31.205077+02:00
+generated: 2017-10-13T10:46:46.69145+02:00
