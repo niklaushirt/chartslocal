@@ -1,8 +1,43 @@
 apiVersion: v1
 entries:
+  ghost:
+  - appVersion: 0.11.10
+    created: 2017-10-23T15:32:07.585842+02:00
+    description: A simple, powerful publishing platform that allows you to share your
+      stories with the world
+    digest: 77132f54f151c20b0bb418d344a2a2678d0bb5df1e51c58d569f47e2953c89f7
+    engine: gotpl
+    home: http://www.ghost.org/
+    icon: https://bitnami.com/assets/stacks/ghost/img/ghost-stack-220x234.png
+    keywords:
+    - ghost
+    - blog
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: ghost
+    sources:
+    - https://github.com/bitnami/bitnami-docker-ghost
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/ghost-0.4.15.tgz
+    version: 0.4.15
+  guestbook:
+  - apiVersion: v1
+    created: 2017-10-23T15:32:07.586057+02:00
+    description: A Helm chart for a Kubernetes Guestbook
+    digest: ed56855b71c806de8e0ad6e67b12633c5b8b1afcd4627e8a5730d269dfa14a82
+    name: guestbook
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/guestbook-0.1.0.tgz
+    version: 0.1.0
   nodered:
   - apiVersion: v1
-    created: 2017-10-18T10:31:27.829579+02:00
+    created: 2017-10-23T15:32:07.586364+02:00
     description: A Helm chart for NodeRed
     digest: c5b5c6fbd47282989142b1648cc309c3e46cdcc8a0880317aeef48b7c220a505
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/noderedicon.png
@@ -17,7 +52,7 @@ entries:
     version: 0.17.5
   urbancode:
   - apiVersion: v1
-    created: 2017-10-18T10:31:27.830048+02:00
+    created: 2017-10-23T15:32:07.586681+02:00
     description: A Helm chart for IBM UrbanCode Deploy
     digest: 3c02923eb7333f67a287630f7a9e03ab363a7ab7b04650b5d9cc000a9fb99abb
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/urbancodedeployicon.png
@@ -30,4 +65,29 @@ entries:
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/urbancode-6.2.5.tgz
     version: 6.2.5
-generated: 2017-10-18T10:31:27.828258+02:00
+  wordpress:
+  - appVersion: 4.8.1
+    created: 2017-10-23T15:32:07.587511+02:00
+    description: Web publishing platform for building blogs and websites.
+    digest: 0d582e8f89a6d23b759ab3d11cc59fbe3214595bbc9f0c97d1cf5cd103603f2e
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: bitnami-bot
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/wordpress-0.6.10.tgz
+    version: 0.6.10
+generated: 2017-10-23T15:32:07.582835+02:00
