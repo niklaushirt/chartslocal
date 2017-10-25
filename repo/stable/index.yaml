@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   nodered:
   - apiVersion: v1
-    created: 2017-10-23T15:49:02.994028+02:00
+    created: 2017-10-25T17:50:30.833854+02:00
     description: A Helm chart for NodeRed
-    digest: c5b5c6fbd47282989142b1648cc309c3e46cdcc8a0880317aeef48b7c220a505
+    digest: fd369a90bac6eb7195f6be14223052ea6bf22e0b3a1f399c5b26153c7b84fd00
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/noderedicon.png
     maintainers:
     - email: niklaushirt@gmail.com
@@ -17,7 +17,7 @@ entries:
     version: 0.17.5
   urbancode:
   - apiVersion: v1
-    created: 2017-10-23T15:49:02.994262+02:00
+    created: 2017-10-25T17:50:30.834097+02:00
     description: A Helm chart for IBM UrbanCode Deploy
     digest: 3c02923eb7333f67a287630f7a9e03ab363a7ab7b04650b5d9cc000a9fb99abb
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/urbancodedeployicon.png
@@ -30,4 +30,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/urbancode-6.2.5.tgz
     version: 6.2.5
-generated: 2017-10-23T15:49:02.992964+02:00
+generated: 2017-10-25T17:50:30.833388+02:00
