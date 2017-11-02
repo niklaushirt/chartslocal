@@ -1,8 +1,41 @@
 apiVersion: v1
 entries:
+  jenkins:
+  - created: 2017-11-02T11:21:51.66675+01:00
+    description: Jenkins for Linux
+    digest: 1765a58b36bbd291b04446d6da55bd03c3b61aefc7a10cdf67aa9fedeebebbd0
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/jenkins-2.19.4.tgz
+    version: 2.19.4
+  nginx:
+  - created: 2017-11-02T11:21:51.667005+01:00
+    description: Nginx for Linux
+    digest: 0d1c565930c844dcc1c6fbfaa4abbfe175964134969e40985e16c88306757d97
+    home: https://github.com/kubernetes/helm
+    icon: https://pbs.twimg.com/profile_images/567774844322713600/tYoVju31.png
+    keywords:
+    - http
+    - nginx
+    - www
+    - web
+    maintainers:
+    - email: guo@ca.ibm.com
+      name: guo
+    name: nginx
+    sources:
+    - https://hub.docker.com/_/nginx/
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/nginx-1.8.1.tgz
+    version: 1.8.1
   nodered:
   - apiVersion: v1
-    created: 2017-10-25T18:14:04.870388+02:00
+    created: 2017-11-02T11:21:51.667243+01:00
     description: A Helm chart for NodeRed
     digest: 72c5f0cd641649e23b09b178ba9dffe6fbb2755daf4237fb3e7f757325a10d6f
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/noderedicon.png
@@ -15,9 +48,57 @@ entries:
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/nodered-0.17.5.tgz
     version: 0.17.5
+  redis:
+  - created: 2017-11-02T11:21:51.667478+01:00
+    description: Redis for Linux
+    digest: 57f77b585eb05748a6fe3a1c139dfe47703e06f5ae4a7e547266969873370c9f
+    home: https://github.com/redis
+    icon: https://avatars1.githubusercontent.com/u/1529926?v=3&s=200
+    maintainers:
+    - email: guo@ca.ibm.com
+      name: guo
+    name: redis
+    sources:
+    - https://hub.docker.com/r/liuhougangxa/redis-3.2.0/
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/redis-3.2.0.tgz
+    version: 3.2.0
+  sockshop:
+  - created: 2017-11-02T11:21:51.668788+01:00
+    description: Sockshop for Linux
+    digest: da2f65fb666691379f79116b5cf766c2b37441f59dceac933e2fc0b22e11f8d1
+    home: https://hub.docker.com/r/weaveworksdemos/
+    icon: https://avatars3.githubusercontent.com/u/20818112?v=3&s=200
+    keywords:
+    - frontend
+    - sockshop
+    - weavesock
+    - microservices
+    maintainers:
+    - email: guo@ca.ibm.com
+      name: guo
+    name: sockshop
+    sources:
+    - https://github.com/microservices-demo/
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/sockshop-0.2.0.tgz
+    version: 0.2.0
+  tomcat:
+  - apiVersion: v1
+    created: 2017-11-02T11:21:51.66904+01:00
+    description: Tomcat for Linux
+    digest: 30045c45c1b544bfd61716f6ccb1c3d4c326c80e80f70d51dc4964e8c32b1b97
+    home: https://hub.docker.com/_/tomcat/
+    icon: http://tomcat.apache.org/images/tomcat.png
+    name: tomcat
+    sources:
+    - https://github.com/docker-library/tomcat
+    urls:
+    - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/tomcat-9.0.tgz
+    version: "9.0"
   urbancode:
   - apiVersion: v1
-    created: 2017-10-25T18:14:04.871316+02:00
+    created: 2017-11-02T11:21:51.669293+01:00
     description: A Helm chart for IBM UrbanCode Deploy
     digest: 3c02923eb7333f67a287630f7a9e03ab363a7ab7b04650b5d9cc000a9fb99abb
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/urbancodedeployicon.png
@@ -30,4 +111,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/urbancode-6.2.5.tgz
     version: 6.2.5
-generated: 2017-10-25T18:14:04.869886+02:00
+generated: 2017-11-02T11:21:51.666242+01:00
