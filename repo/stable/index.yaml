@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ghost:
   - appVersion: 0.11.10
-    created: 2017-12-04T16:38:06.906549+01:00
+    created: 2017-12-04T16:40:19.642748+01:00
     description: A simple, powerful publishing platform that allows you to share your
       stories with the world
     digest: bfe3c7a8c1afbfb8d36960e1245f9f1ae6e6e097c19bfbc735c5373d5c135623
@@ -27,7 +27,7 @@ entries:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/ghost-0.4.15.tgz
     version: 0.4.15
   gitlab-ce:
-  - created: 2017-12-04T16:38:06.907226+01:00
+  - created: 2017-12-04T16:40:19.643004+01:00
     description: GitLab CE release
     digest: 1e023b20e615b8fd937f5ef58a0765e64f418852a13c30393ef0e050ccaa85ee
     home: http://gitlab.com
@@ -46,7 +46,7 @@ entries:
     version: 9.3.8-ce.0
   guestbook:
   - apiVersion: v1
-    created: 2017-12-04T16:38:06.945436+01:00
+    created: 2017-12-04T16:40:19.64316+01:00
     description: A Helm chart for a Kubernetes Guestbook
     digest: b513587be7aeceb2d8570e0c7ae9f22d1f1053d222a0426ec8011b89788f8296
     name: guestbook
@@ -54,7 +54,7 @@ entries:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/guestbook-0.1.0.tgz
     version: 0.1.0
   jenkins:
-  - created: 2017-12-04T16:38:06.947352+01:00
+  - created: 2017-12-04T16:40:19.643441+01:00
     description: Jenkins for Linux
     digest: 1765a58b36bbd291b04446d6da55bd03c3b61aefc7a10cdf67aa9fedeebebbd0
     home: https://jenkins.io/
@@ -68,7 +68,7 @@ entries:
     version: 2.19.4
   mqadvanceddev:
   - apiVersion: v1
-    created: 2017-12-04T16:38:06.949568+01:00
+    created: 2017-12-04T16:40:19.644474+01:00
     description: IBM MQ queue manager
     digest: ab30bc1c050b0b4941e0cb233d6019ea8abcf1f9a242a8bfd1e2fea645f45e2e
     icon: https://developer.ibm.com/messaging/wp-content/uploads/sites/18/2017/07/IBM-MQ-Square-200.png
@@ -80,7 +80,7 @@ entries:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/mqadvanceddev-1.0.2.tgz
     version: 1.0.2
   nginx:
-  - created: 2017-12-04T16:38:06.953171+01:00
+  - created: 2017-12-04T16:40:19.644688+01:00
     description: Nginx for Linux
     digest: 0d1c565930c844dcc1c6fbfaa4abbfe175964134969e40985e16c88306757d97
     home: https://github.com/kubernetes/helm
@@ -101,7 +101,7 @@ entries:
     version: 1.8.1
   nodered:
   - apiVersion: v1
-    created: 2017-12-04T16:38:06.955026+01:00
+    created: 2017-12-04T16:40:19.645044+01:00
     description: A Helm chart for NodeRed
     digest: fc74007fe77e9971015b3d78d7093af94479e1f5c7cf438d0a32a5cb66a6f08c
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/noderedicon.png
@@ -115,7 +115,7 @@ entries:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/nodered-0.17.5.tgz
     version: 0.17.5
   redis:
-  - created: 2017-12-04T16:38:06.955523+01:00
+  - created: 2017-12-04T16:40:19.645417+01:00
     description: Redis for Linux
     digest: 57f77b585eb05748a6fe3a1c139dfe47703e06f5ae4a7e547266969873370c9f
     home: https://github.com/redis
@@ -130,9 +130,9 @@ entries:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/redis-3.2.0.tgz
     version: 3.2.0
   sockshop:
-  - created: 2017-12-04T16:38:06.959658+01:00
+  - created: 2017-12-04T16:40:19.646925+01:00
     description: Sockshop for Linux
-    digest: cca7f2210c290d9fc1c46842285e341daf1db2321a7803bd87844b44a65d9691
+    digest: 27a0b4d7a53211f23967260e570a87d169204bf8683cba6269ab98fcbff3cdea
     home: https://hub.docker.com/r/weaveworksdemos/
     icon: https://avatars3.githubusercontent.com/u/20818112?v=3&s=200
     keywords:
@@ -151,7 +151,7 @@ entries:
     version: 0.2.0
   tomcat:
   - apiVersion: v1
-    created: 2017-12-04T16:38:06.96009+01:00
+    created: 2017-12-04T16:40:19.647119+01:00
     description: Tomcat for Linux
     digest: 30045c45c1b544bfd61716f6ccb1c3d4c326c80e80f70d51dc4964e8c32b1b97
     home: https://hub.docker.com/_/tomcat/
@@ -164,9 +164,9 @@ entries:
     version: "9.0"
   urbancode:
   - apiVersion: v1
-    created: 2017-12-04T16:38:06.975255+01:00
+    created: 2017-12-04T16:40:19.647378+01:00
     description: A Helm chart for IBM UrbanCode Deploy
-    digest: a2db8dc0ea3b52a7f6b80dcdf9514053f32d49c5802ea832ac9d897c94114709
+    digest: 79db22a6a96485671de16596fc9debd5e4c78cbeaca3c102ef8aca13d7d839e7
     icon: https://github.com/niklaushirt/chartslocal/raw/master/icons/urbancodedeployicon.png
     maintainers:
     - email: niklaushirt@gmail.com
@@ -179,7 +179,7 @@ entries:
     version: 6.2.6
   wordpress:
   - appVersion: 4.8.1
-    created: 2017-12-04T16:38:06.982831+01:00
+    created: 2017-12-04T16:40:19.648878+01:00
     description: Web publishing platform for building blogs and websites.
     digest: 437601e68a16caa7a845116746473e232fa06702651940fca07e134b2ad1f81e
     engine: gotpl
@@ -202,4 +202,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/niklaushirt/chartslocal/master/repo/stable/wordpress-0.6.10.tgz
     version: 0.6.10
-generated: 2017-12-04T16:38:06.834987+01:00
+generated: 2017-12-04T16:40:19.634119+01:00
